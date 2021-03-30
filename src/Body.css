@@ -1,0 +1,159 @@
+.banner {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+.banner1 {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+.para {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: grey;
+}
+.para2 {
+  color: grey;
+}
+.content > h1 {
+  font-size: 4rem;
+  margin: 1%;
+}
+.hover-buttons {
+  font-size: 1rem;
+  width: 10rem;
+}
+
+.hover-buttons:hover {
+  background: white;
+  border-color: #007bff;
+  color: rgb(54, 53, 53);
+}
+.btn {
+  margin-top: 3.5%;
+}
+.intro-heading {
+  padding: 2%;
+  border-bottom: 4px solid grey;
+  font-size: 3.2rem;
+  font-weight: 200;
+  color: #007bff;
+  margin-top: 10rem;
+}
+.sub-heading {
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+.card__detail {
+  display: flex;
+  place-items: center;
+}
+.card {
+  width: 11rem;
+  height: 12rem;
+}
+.card-body {
+  background-color: #dfff00;
+}
+.card-extra {
+  border: 2px solid grey;
+}
+.image_fix {
+  margin-left: 1rem;
+}
+.card-img-top {
+  height: 16vh;
+  width: 19vh;
+}
+
+.card-text,
+.card-title {
+  text-align: left;
+  font-weight: bold;
+}
+.prop {
+  padding: 1.4rem;
+  border-bottom: 2px solid grey;
+}
+.prop_div {
+  margin-top: 2rem;
+  padding: 2%;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  display: inline-block;
+}
+.prop_div_cut {
+  text-decoration: line-through;
+}
+.prop_img {
+  height: 15vh;
+  width: 15vh;
+  margin-left: 7rem;
+}
+@media only screen and (max-width: 1000px) {
+  .prop_img {
+    margin-left: 2rem;
+  }
+}
+.prop_btn {
+  height: 2.8rem;
+}
+.intro-heading2 {
+  padding: 2%;
+  font-size: 3.2rem;
+  font-weight: 400;
+  color: #007bff;
+  margin-top: 2rem;
+}
+.work {
+  margin-top: 2rem;
+}
+.work > p {
+  color: grey;
+}
+.work:hover {
+  margin-top: 0;
+  border: 1px solid black;
+}
+.image_work {
+  height: 30vh;
+  width: 30vh;
+}
+.number {
+  font-size: 2rem;
+  padding: 2%;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  border-radius: 50%;
+  background-color: darkgrey;
+}
+.why_heading {
+  margin-left: 5px;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.why_heading1 {
+  font-weight: 500;
+  font-family: ubuntu;
+  font-size: 2.9rem;
+  color: grey;
+}
+.why_description {
+  color: grey;
+}
+.why {
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+}
+.image19 {
+  height: 75vh;
+  width: 45vw;
+  margin-left: 0.5rem;
+  object-fit: contain;
+  overflow: hidden;
+}
